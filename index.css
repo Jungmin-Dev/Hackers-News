@@ -1,0 +1,19 @@
+#hnmain { min-width: 796px; }
+td    { font-family:Verdana, Geneva, sans-serif; font-size:10pt; color:#828282; }
+body  { font-family:Verdana, Geneva, sans-serif; font-size:10pt; color:#828282; }
+.pagetop { font-family:Verdana, Geneva, sans-serif; font-size: 10pt; color:#222222; line-height:12px; }
+a:link    { color:#000000; text-decoration:none; }
+.title   { font-family:Verdana, Geneva, sans-serif; font-size: 10pt; color:#828282; overflow:hidden; }
+.title a { word-break: break-word; }
+.votearrow {
+    width:      10px;
+    height:     10px;
+    border:     0px;
+    margin:     3px 2px 6px;
+    background: url("/img/grayarrow.gif")
+    no-repeat;
+  }
+  .comhead { font-family:Verdana, Geneva, sans-serif; font-size:  8pt; color:#828282; }
+  .comhead a:link, .subtext a:visited { color:#828282; }
+  .subtext { font-family:Verdana, Geneva, sans-serif; font-size:  7pt; color:#828282; }
+  .subtext a:link, .subtext a:visited { color:#828282; }
