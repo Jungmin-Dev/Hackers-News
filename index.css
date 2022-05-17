@@ -17,3 +17,5 @@ a:link    { color:#000000; text-decoration:none; }
   .comhead a:link, .subtext a:visited { color:#828282; }
   .subtext { font-family:Verdana, Geneva, sans-serif; font-size:  7pt; color:#828282; }
   .subtext a:link, .subtext a:visited { color:#828282; }
+  
+  a.topsel { color:#ffffff; }
