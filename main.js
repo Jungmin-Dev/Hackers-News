@@ -81,7 +81,7 @@ const htmlMaker = (menuVal, pageVal, dataArr) => {
 };
 
 /**
- * 화면 메뉴선택이나 페이지 더보기를 선택한 경우
+ * 화면 메뉴선택이나 페이지 이전, 다음 선택한 경우
  * @param {string} menuVal 메뉴명
  * @param {number} pageVal 페이지번호
  * */
