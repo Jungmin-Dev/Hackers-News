@@ -69,7 +69,8 @@ const htmlMaker = (menuVal, pageVal, dataArr) => {
   // 더보기 버튼 처리
   template +=
     '<tr class="spacer" style="height:5px"></tr><tr class="spacer" style="height:5px"></tr>';
-
+  
+  // 페이지 처리를 위한 항목 추가
   template += `<tr><td colspan="2"></td><td class="title"><a href="javascript:void(0);" onclick="menuMoveEvent('${menuVal}', ${
     pageVal - 1
   } );"  class="morelink" rel="next"> 이 전 </a></td></tr>`;
@@ -101,10 +102,3 @@ const menuMoveEvent = (menuVal, pageVal) => {
       : (el.className = "")
   );
 };
-
-
-
-
-
-
-
