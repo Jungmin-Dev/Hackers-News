@@ -101,3 +101,10 @@ const menuMoveEvent = (menuVal, pageVal) => {
       : (el.className = "")
   );
 };
+
+
+
+
+
+
+
